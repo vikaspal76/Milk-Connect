@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-yf*mw+zoxc1exq@%0uba(=a#ao-!e@_0^4+0*%slc@&j(du9qu'
 DEBUG = False
-ALLOWED_HOSTS = ['milk-connect.onrender.com']
+ALLOWED_HOSTS = ['milk-connect.onrender.com','vikaspal76.pythonanywhere.com']
 
 # Application definition
 INSTALLED_APPS = [
