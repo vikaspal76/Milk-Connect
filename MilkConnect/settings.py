@@ -13,9 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yf*mw+zoxc1exq@%0uba(=a#ao-!e@_0^4+0*%slc@&j(du9qu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['milk-connect.onrender.com']
 
 
 # Application definition
