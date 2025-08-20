@@ -2,13 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-# In manage.py or wsgi.py
-import os
-
-port = int(os.environ.get("PORT", 8000))
-from django.core.management import execute_from_command_line
-execute_from_command_line(["manage.py", "runserver", f"0.0.0.0:{port}"])
-
 
 def main():
     """Run administrative tasks."""
@@ -21,6 +14,14 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+
+    # Get port from Render environment variable
+    port = os.environ.get("PORT", 8000)
+    
+    # If the command is run without arguments, default to runserver on 0.0.0.0:$PORT
+    if len(sys.argv) == 1:
+        sys.argv += ["runserver", f"0.0.0.0:{port}"]
+
     execute_from_command_line(sys.argv)
 
 
