@@ -1,0 +1,137 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %}
+<title>MilkConnect - Milkman Details</title>
+{% endblock %}
+
+{% block body %}
+<div class="container py-5" style="max-width: 950px;">
+
+    <!-- Main Card -->
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+
+        <!-- Profile Header -->
+        <div class="text-center p-5" style="background: linear-gradient(135deg, #4f46e5, #3b82f6); color: white;">
+            {% if milkman.pic %}
+            <img src="{{ milkman.pic.url }}" class="rounded-circle border border-4 border-white shadow-lg"
+                alt="{{ milkman.name }}" width="160" height="160" style="object-fit: cover;">
+            {% else %}
+            <img src="{% static 'images/sample_milkman.jpg' %}"
+                class="rounded-circle border border-4 border-white shadow-lg" alt="Milkman" width="160" height="160"
+                style="object-fit: cover;">
+            {% endif %}
+            <h2 class="mt-3 fw-bold">{{ milkman.name }}</h2>
+            <p class="opacity-75 fs-5">{{ milkman.username }}</p>
+        </div>
+
+        <div class="p-4 bg-light">
+
+            <!-- Contact Details -->
+            <h5 class="fw-bold mb-3 border-start border-4 border-primary ps-2">Contact Information</h5>
+            <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3">
+                        <i class="bi bi-envelope-fill text-danger fs-3 mb-2"></i>
+                        <div><strong>Email:</strong> {{ milkman.email }}</div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3">
+                        <i class="bi bi-telephone-fill text-success fs-3 mb-2"></i>
+                        <div><strong>Phone:</strong> {{ milkman.phone }}</div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3">
+                        <i class="bi bi-house-door-fill text-warning fs-3 mb-2"></i>
+                        <div><strong>Address:</strong> {{ milkman.addressline }}</div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3">
+                        <i class="bi bi-building text-secondary fs-3 mb-2"></i>
+                        <div><strong>City:</strong> {{ milkman.city }}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Milk Details -->
+            <h5 class="fw-bold mb-3 border-start border-4 border-info ps-2">Milk Details</h5>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3 text-center">
+                        <i class="bi bi-droplet-half text-info fs-1 mb-2"></i>
+                        <div class="fw-semibold">Milk Type</div>
+                        <div class="text-muted">{{ milkman.milktype }}</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 p-3 text-center">
+                        <i class="bi bi-currency-rupee text-success fs-1 mb-2"></i>
+                        <div class="fw-semibold">Price per Liter</div>
+                        <div class="text-muted">₹{{ milkman.price_per_liter }}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dairy Shop Images -->
+
+            <h5 class="fw-bold mt-5 border-start border-4 border-warning ps-2">Dairy Shop Images</h5>
+
+            <div class="d-flex gap-3 flex-wrap mt-3">
+                {% if dairy.pic1 %}<img src="{{ dairy.pic1.url }}" class="rounded shadow-sm hover-zoom"
+                    style="width: 150px; height: 120px; object-fit: cover;">{% endif %}
+                {% if dairy.pic2 %}<img src="{{ dairy.pic2.url }}" class="rounded shadow-sm hover-zoom"
+                    style="width: 150px; height: 120px; object-fit: cover;">{% endif %}
+                {% if dairy.pic3 %}<img src="{{ dairy.pic3.url }}" class="rounded shadow-sm hover-zoom"
+                    style="width: 150px; height: 120px; object-fit: cover;">{% endif %}
+                {% if dairy.pic4 %}<img src="{{ dairy.pic4.url }}" class="rounded shadow-sm hover-zoom"
+                    style="width: 150px; height: 120px; object-fit: cover;">{% endif %}
+                {% if not dairy.pic1 and not dairy.pic2 and not dairy.pic3 and not dairy.pic4 %}
+                <p class="text-muted">No shop images available.</p>
+                {% endif %}
+            </div>
+
+            <h5 class="mb-3">Customer Ratings for {{ milkman.name }}</h5>
+            {% if ratings %}
+            <ul class="list-group mb-3">
+                {% for rating in ratings %}
+                <li class="list-group-item bg-dark text-white rounded-3 shadow-sm mb-2 border-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>{{ rating.customeruser }}</strong> rated
+                            <strong class="text-warning">{{ rating.value }} &#9733;</strong>
+                            {% if rating.review %}<br>"{{ rating.review }}"{% endif %}
+                        </span>
+                    </div>
+                    <small class="text-light d-block mt-2">
+                        on {{ rating.created_at|date:"d M Y, H:i" }}
+                    </small>
+
+
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-zoom {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .hover-zoom:hover {
+        transform: scale(1.05);
+    }
+</style>
+{% block subscribe %}
+
+{% endblock %}
+{% endblock %}

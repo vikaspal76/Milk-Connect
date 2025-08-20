@@ -1,0 +1,91 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block body %}
+<!-- About Us Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold display-4 " style="margin-top: 40px;">About <span class="text-success">MilkConnect</span></h2>
+      <p class="text-muted fs-5 col-lg-8 mx-auto">
+        Fresh milk, trusted sources, and doorstep convenience — <strong>MilkConnect</strong> 
+        makes your daily milk supply simple, transparent, and reliable.
+      </p>
+    </div>
+
+    <div class="row align-items-center g-5">
+      <!-- Left Image -->
+      <div class="col-lg-6">
+        <img src="{% static 'images/about.png' %}" class="img-fluid rounded-4 shadow-lg" alt="MilkConnect">
+      </div>
+
+      <!-- Right Content -->
+      <div class="col-lg-6">
+        <h3 class="fw-bold fs-2 mb-3">Who We Are</h3>
+        <p class="text-muted fs-5">
+          MilkConnect connects customers with local milkmen and dairies in their area. 
+          Our mission is to bring fresh, healthy, and affordable milk directly to your home 
+          while empowering local suppliers with a digital platform.
+        </p>
+
+        <div class="row mt-4">
+          <div class="col-sm-6 mb-4">
+            <div class="d-flex align-items-start">
+              <div class="bg-success bg-opacity-10 p-4 rounded-3 me-3">
+                <i class="bi bi-cup-straw text-success fs-2"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">Fresh & Pure</h5>
+                <p class="text-muted fs-6 mb-0">Direct supply from local trusted dairies.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="d-flex align-items-start">
+              <div class="bg-success bg-opacity-10 p-4 rounded-3 me-3">
+                <i class="bi bi-cash-stack text-success fs-2"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">Fair Pricing</h5>
+                <p class="text-muted fs-6 mb-0">Transparent rates with no middlemen.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="d-flex align-items-start">
+              <div class="bg-success bg-opacity-10 p-4 rounded-3 me-3">
+                <i class="bi bi-star-fill text-success fs-2"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">Trusted Reviews</h5>
+                <p class="text-muted fs-6 mb-0">Real customer feedback to guide your choice.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="d-flex align-items-start">
+              <div class="bg-success bg-opacity-10 p-4 rounded-3 me-3">
+                <i class="bi bi-phone text-success fs-2"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">Easy Platform</h5>
+                <p class="text-muted fs-6 mb-0">Simple and modern interface for everyone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="/contact/" class="btn btn-success btn-lg rounded-pill px-5 py-3 mt-3 shadow-lg fs-5">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block subscribe %}
+
+{% endblock %}

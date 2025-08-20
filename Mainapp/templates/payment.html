@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Razorpay Payment</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+<h2 style="text-align:center; margin-top:30px;">Redirecting to Razorpay...</h2>
+
+<script>
+    var options = {
+        "key": "{{ razorpay_key_id }}",
+        "amount": "{{ amount }}",  // send in paise
+        "currency": "INR",
+        "name": "Milk Delivery Service",
+        "description": "Milk Bill Payment",
+        "order_id": "{{ order_id }}",
+        "handler": function (response){
+            fetch("/payment-success/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": "{{ csrf_token }}"
+                },
+                body: JSON.stringify(response)
+            }).then(res => res.json())
+              .then(data => {
+                  window.location.href = "/payment-success/";
+              });
+        },
+        "prefill": {
+            "name": "{{ user.username }}",
+            "email": "{{ phone}}",
+            "contact": "{{ email}}"
+        },
+        "theme": {
+            "color": "#0d6efd"
+        },
+        "modal": {
+            "ondismiss": function(){
+                window.location.href = "/payment-failed/";
+            }
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.open();
+</script>
+
+
+</body>
+</html>

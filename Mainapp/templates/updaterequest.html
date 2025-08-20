@@ -1,0 +1,62 @@
+{% extends "milkmandashboard.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container my-4">
+    <div class="card dashboard-card shadow-sm">
+        <div class="card-body p-4" style="margin-top: 40px;">
+            <div class="card-header d-flex align-items-center" style="background:#0f9d7a;color:#fff;">
+                <span class="me-2" style="font-size:18px;">📥</span>
+                <h5 class="mb-0">New Requests</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered table-sm align-middle text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Date</th>
+                            <th>Customer Name</th>
+                            <th>Username</th>
+                            <th>Quantity (Liters)</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                            <th>Submit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for new in new_request %}
+                        <tr>
+                            <td>{{ new.joined }}</td>
+                            <td>{{ new.name }}</td>
+                            <td>{{ new.username }}</td>
+                            <td>{{ new.quantiy_liter }}</td>
+                            <td>
+                                <span
+                                    class="{% if new.custumer_request == 'Accept' %}text-success{% else %}text-danger{% endif %}">
+                                    {{ new.custumer_request }}
+                                </span>
+                            </td>
+                            <td colspan="2">
+                                <form method="POST" action="/modigy_request/{{new.id}}">
+                                    {% csrf_token %}
+                                    <select name="request" class="form-select form-select-sm d-inline w-auto">
+                                        <option value="Accept">Accept</option>
+                                        <option value="Reject">Reject</option>
+                                    </select>
+                                    <button type="submit" class="btn btn-success btn-sm px-3">Confirm</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="7">No new requests found.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block subscribe %}{% endblock %}

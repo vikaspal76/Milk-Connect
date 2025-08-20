@@ -1,0 +1,172 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %}
+<title>MilkConnect - Forgot Password</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center bg-light p-0">
+    <div class="row w-100 rounded overflow-hidden shadow-lg animate-container"
+        style="max-width: 900px; min-height: 100vh;margin-top: 88px;">
+
+        <!-- Left Column: Image -->
+        <div class="col-md-6 d-none d-md-flex p-0 animate-left bg-white align-items-center justify-content-center">
+            <img src="{% static 'images/forget.png' %}" alt="Forgot Password Illustration" class="img-fluid"
+                style="object-fit: contain; max-height: 100%; width: 100%;">
+        </div>
+
+        <!-- Right Column: Form -->
+        <div class="col-md-6 bg-white p-5 animate-right d-flex flex-column justify-content-center">
+            <div class="text-center mb-3">
+                <img src="{% static 'images/logo.png' %}" alt="logo" class="img-fluid"
+                    style="max-width: 80px; height: auto; object-fit: contain;">
+            </div>
+            <h3 class="mb-3 text-primary text-center">Forgot Password</h3>
+            <p class="text-muted text-center mb-4">
+                Enter your Username to get otp on your registerd email
+            </p>
+            {% for message in messages %}
+            {% if message.tags == "success" %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% else %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+            <form method="POST" action="">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username </label>
+                    <input type="text" class="form-control custom-input" id="email" name="username"
+                        placeholder="Enter your usernamer here.." required>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn custom-btn">Send </button>
+                </div>
+            </form>
+            <div class="text-center mt-3">
+                <a href="/login" class="text-decoration-none text-secondary hover-underline">
+                    ← Back to Login
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(135deg, #fdfdfd, #eaf7ff);
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Animations */
+    .animate-container {
+        animation: fadeIn 1s ease-out forwards;
+    }
+
+    .animate-left {
+        animation: slideInLeft 1s ease-out forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInLeft {
+        from {
+            transform: translateX(-50px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        from {
+            transform: translateX(50px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    /* Input field */
+    .custom-input {
+        border-radius: 10px;
+        border: 1px solid #ced4da;
+        transition: all 0.3s ease;
+    }
+
+    .custom-input:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+    }
+
+    /* Button style */
+    .custom-btn {
+        background: linear-gradient(45deg, #4CAF50, #2e8b57);
+        border: none;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .custom-btn:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Link hover underline animation */
+    .hover-underline {
+        position: relative;
+    }
+
+    .hover-underline::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0%;
+        height: 2px;
+        background: #4CAF50;
+        transition: width 0.3s ease;
+    }
+
+    .hover-underline:hover::after {
+        width: 100%;
+    }
+</style>
+{% block subscribe %}
+
+{% endblock %}
+
+{% endblock %}

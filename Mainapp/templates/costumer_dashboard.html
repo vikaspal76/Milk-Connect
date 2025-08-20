@@ -1,0 +1,215 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Consumer Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .dashboard-container {
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background: linear-gradient(to right, #00796b, #26a69a);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .status-badge {
+            font-size: 0.85rem;
+            padding: 5px 10px;
+            border-radius: 50px;
+        }
+
+        .status-delivered {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .status-absent {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .status-not-delivered {
+            background-color: #f44336;
+            color: white;
+        }
+
+        select {
+            padding: 5px 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .summary-box {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-pay {
+            background: linear-gradient(to right, #ff6f00, #ff8f00);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .btn-pay:hover {
+            background: linear-gradient(to right, #e65100, #ff6f00);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-bottom: 40px;">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img src="{% static 'images/logo.png' %}" alt="logo" width="80" height="40"
+                        style="border-radius:8px;object-fit:cover;margin-right:8px;">
+                    <span style="font-weight:700;">MilkConnect</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                    aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navMain">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#milkmen">Find Milkman</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#extraMilk">Extra Milk</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Animal Bazar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+
+                        {% if user.is_authenticated %}
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="userDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ user.username }}
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" href="/costumer-dashboard/">Dashboard</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="">Update profile</a></li>
+                                <li><a class="dropdown-item" href="/change-pass/">Change password</a></li>
+
+
+                                <li><a class="dropdown-item" href="/logout/">Logout</a></li>
+                            </ul>
+                        </li>
+                        {% else %}
+                        <li class="nav-item ms-3">
+                            <a class="btn btn-outline-primary" href="/login/">Login</a>
+                        </li>
+                        {% endif %}
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container dashboard-container">
+        <div class="card shadow">
+            <div class="card-header text-center" style="margin-top: 40px;">
+                📋 Consumer Dashboard
+            </div>
+            <div class="card-body p-4">
+                <form method="post" action="/confirm-milk/">
+                    {% csrf_token %}
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle text-center">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Quantity (Liters)</th>
+                                    <th>Milkman Status</th>
+                                    <th>Your Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- TODAY'S ENTRY -->
+                                {% if today %}
+                                <tr class="table-primary fw-bold">
+                                    <td>{{today.date}}</td>
+                                    <td>{{today_total}}</td>
+                                    <td><span class="status-badge status-delivered">{{today.status}}</span></td>
+                                    <td>
+                                        <select name="status_today" required>
+                                            <option value="">-- Select --</option>
+                                            <option value="Delivered">Delivered</option>
+                                            <option value="Absent">Absent</option>
+                                            <option value="Not Delivered">Not Delivered</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <button type="submit" class="btn btn-success btn-sm px-3">Confirm</button>
+                                    </td>
+                                </tr>
+
+                                {% endif %}
+
+
+
+                                <!-- PAST ENTRIES -->
+                                {%for past in past_data%}
+
+                                <tr>
+                                    <td>{{past.date}}</td>
+                                    <td>{{past.total_milk}}</td>
+                                    <td><span class="status-badge status-delivered">{{past.status}}</span></td>
+                                    <td><span class="status-badge status-delivered">{{past.costumer_status}}</span></td>
+                                    <td>-</td>
+                                </tr>
+
+                                {%endfor%}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+
+                <!-- SUMMARY BOX -->
+                <div class="summary-box mt-4">
+                    <h5 class="mb-3">📊 Total Summary</h5>
+                    <p><strong>From:</strong> 2025-08-12 <strong>To:</strong> 2025-08-15</p>
+                    <p><strong>Total Milk Delivered:</strong> {{total_milk}} Liters</p>
+                    <p><strong>Rate per Liter:</strong> ₹{{price}}</p>
+                    <p class="fs-5"><strong>Total Amount to Pay:</strong>{{amount}}</p>
+                    <a href="/pay/" class="btn-pay">💳 Pay Now</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% block subscribe %}
+
+    {% endblock %}
+</body>
+
+</html>
