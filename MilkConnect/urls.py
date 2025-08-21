@@ -27,4 +27,7 @@ urlpatterns = [
     path("modigy_request/<int:id>",modify_request),
     path("milkstate/<int:id>",milkstate, name="milkstate"),
     path("aboutus/",aboutpage),
+    path("feedback/",feedbackform),
+    path("updateprofile/",updateprofilemilkman),
+    path("placeorder/",placeorder),
    ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,0 +1,106 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container my-5">
+    <div class="card shadow-lg rounded-4 p-4 mx-auto" style="max-width: 800px; background-color:#fff;">
+        <h3 class="text-center mb-4 text-warning">Update Profile</h3>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            <!-- Profile Picture -->
+            <div class="text-center mb-4">
+                {% if milkman.pic %}
+                <img src="{{ milkman.pic.url }}" class="rounded-circle border border-warning"
+                    style="width:130px;height:130px;object-fit:cover;" id="profilePreview">
+                {% else %}
+                <img src="{% static 'images/default.jpg' %}" class="rounded-circle border border-warning"
+                    style="width:130px;height:130px;object-fit:cover;" id="profilePreview">
+                {% endif %}
+                <div class="mt-2">
+                    <input type="file" name="pic" class="form-control form-control-sm" onchange="previewProfile(event)">
+                </div>
+            </div>
+
+            <!-- Personal Info -->
+            <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Name</label>
+                    <input type="text" class="form-control" name="name" value="{{ milkman.name }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Email</label>
+                    <input type="email" class="form-control" name="email" value="{{ milkman.email }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Phone</label>
+                    <input type="text" class="form-control" name="phone" value="{{ milkman.phone }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">City</label>
+                    <input type="text" class="form-control" name="city" value="{{ milkman.city }}">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Address</label>
+                    <textarea class="form-control" name="addressline">{{ milkman.addressline }}</textarea>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Milk Type</label>
+                    <input type="text" class="form-control" name="milktype" value="{{ milkman.milktype }}">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Price per Liter</label>
+                    <input type="number" class="form-control" name="price_per_liter"
+                        value="{{ milkman.price_per_liter }}">
+                </div>
+            </div>
+
+            <!-- Dairy Images Section -->
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Image 1</label>
+                    {% if dairy.pic1 %}
+                    <img src="{{ dairy.pic1.url }}" class="img-fluid rounded mb-2"
+                        style="height:150px;object-fit:cover;">
+                    {% endif %}
+                    <input type="file" name="pic1" class="form-control form-control-sm">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Image 2</label>
+                    {% if dairy.pic2 %}
+                    <img src="{{ dairy.pic2.url }}" class="img-fluid rounded mb-2"
+                        style="height:150px;object-fit:cover;">
+                    {% endif %}
+                    <input type="file" name="pic2" class="form-control form-control-sm">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Image 3</label>
+                    {% if dairy.pic3 %}
+                    <img src="{{ dairy.pic3.url }}" class="img-fluid rounded mb-2"
+                        style="height:150px;object-fit:cover;">
+                    {% endif %}
+                    <input type="file" name="pic3" class="form-control form-control-sm">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Image 4</label>
+                    {% if dairy.pic4 %}
+                    <img src="{{ dairy.pic4.url }}" class="img-fluid rounded mb-2"
+                        style="height:150px;object-fit:cover;">
+                    {% endif %}
+                    <input type="file" name="pic4" class="form-control form-control-sm">
+                </div>
+            </div>
+
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-warning btn-lg fw-bold">Update Profile</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+{% block subscribe %}
+{% endblock %}

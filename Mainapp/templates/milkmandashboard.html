@@ -34,7 +34,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="">Update profile</a></li>
+                        <li><a class="dropdown-item" href="/updateprofile/">Update profile</a></li>
                         <li><a class="dropdown-item" href="/change-pass/">Change password</a></li>
 
 
@@ -275,11 +275,14 @@
 
     <!-- Previous Deliveries -->
     <div>
-        <form method="GET" action="">
+        <form method="POST" action="">
             {%csrf_token%}
             <div class="mb-3">
                 <label for="date" class="form-label fw-bold">Select Date</label>
-                <input type="date" class="form-control" id="date" name="date">
+                <input type="date" class="form-control" id="date" name="pastdate">
+                <div class="text-end mt-3">
+                    <button type="submit" class="btn-save">💾 Past Entries</button>
+                </div>
             </div>
            
         </form>
@@ -309,7 +312,7 @@
                                 <td>{{past.delivered_qty}}</td>
                                 <td>{{past.extra_qty}}</td>
                                 <td><span class="status-delivered">{{past.status}}</span></td>
-                                <td>-</td>
+                                <td>{{past.notes}}</td>
                             </tr>
 
                             {%endfor%}

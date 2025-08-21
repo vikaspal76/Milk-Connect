@@ -84,10 +84,11 @@ def milkman_dashbord(request):
     milkman = request.user.username
     objmilkman=Milkman.objects.get(username=milkman)
     mtype =objmilkman .milktype
-    customer = Costumer.objects.filter(costumer_milkman=milkman)
+    customer = Costumer.objects.filter(costumer_milkman=milkman,custumer_request="Accept")
     total = customer.count()
     record = DailyRecord.objects.filter(date=timezone.now().date(), milkman_username=milkman)
-    pending=customer.filter(custumer_request="Pending")
+    pending=Costumer.objects.filter(custumer_request="Pending",costumer_milkman=milkman)
+
     total_pending=pending.count()
     print(total_pending)
     
@@ -97,7 +98,7 @@ def milkman_dashbord(request):
     print(total_milk)
     extra_milk=Extra_Milk_Today.objects.filter(milkman_username=request.user.username)
     print(extra_milk)
-
+    past_data_milkaman=None
     
 
     if request.method == "POST":
@@ -111,8 +112,8 @@ def milkman_dashbord(request):
                 status = request.POST.get(f"status_{c.username}")
                 notes = request.POST.get(f"notes_{c.username}")
 
-                delivered_qty = int(delivered_qty) if delivered_qty else 0
-                extra_qty = int(extra_qty) if extra_qty else 0
+                delivered_qty = float(delivered_qty) if delivered_qty else 0
+                extra_qty = float(extra_qty) if extra_qty else 0
 
                 DailyRecord.objects.update_or_create(
                     date=entry_date,
@@ -135,11 +136,15 @@ def milkman_dashbord(request):
             extraobj.animal_type=request.POST.get("animal_type")
             extraobj.save()
             messages.success(request,"today extra milk entered")
+        else:
+            pastdate=request.POST.get("pastdate")
+            past_data_milkaman = DailyRecord.objects.filter(date=pastdate, milkman_username=milkman)
+
 
     return render(
         request,
         "milkmandashboard.html",
-        {"customer": customer, "mtype": mtype, "record": record, "total": total, "total_milk": total_milk,"extra_milk":extra_milk,"total_pending":total_pending}
+        {"customer": customer, "mtype": mtype, "record": record, "total": total, "total_milk": total_milk,"extra_milk":extra_milk,"total_pending":total_pending,"past_data_milkaman":past_data_milkaman}
     )
 
 from django.shortcuts import get_object_or_404
@@ -266,6 +271,11 @@ def otp_verification(request):
     return render(request,"otp_verify.html")
 
 def set_password(request):
+    if request.user.is_authenticated:
+        usertype = Milkman.objects.filter(username=request.user.username)
+    else:
+        usertype = None  # or handle anonymous user
+
     if(request.method=='POST'):
         password=request.POST.get("password")
         cpassword=request.POST.get("cpassword")
@@ -282,7 +292,7 @@ def set_password(request):
 
         else:
             messages.error(request,"password and confrim password do not match")
-    return render(request,"set-password.html")
+    return render(request,"set-password.html",{"usertype":usertype})
 
 
 
@@ -371,7 +381,8 @@ def changepassword(request):
 def costumer_dashboard(request):
     costumers = Costumer.objects.get(username=request.user.username)
     milkman = Milkman.objects.get(username=costumers.costumer_milkman)
-    
+    request_status=costumers.custumer_request
+    print(request_status)
     record = DailyRecord.objects.filter(customer_username=request.user.username,status="Delivered",custumer_status="Delivered")
     price = milkman.price_per_liter
     total_milk = record.aggregate(total=Sum(F("delivered_qty") + F("extra_qty")))["total"] or 0
@@ -414,7 +425,8 @@ def costumer_dashboard(request):
         "today": today,
         "past_data": past_data,
         "today_date": today_date,
-        "today_total":today_total
+        "today_total":today_total,
+        "request_status":request_status
     })
 
 
@@ -472,7 +484,7 @@ def discout(request):
         user=Discount()
         user.email=email
         user.save()
-        messages.success(request,"thank you for suscribe")
+        messages.success(request,"thank you for Subscribe")
         return redirect("/")
     return redirect("/")
 
@@ -516,3 +528,75 @@ def milkstate(request,id):
 
 def aboutpage(request):
     return render(request,"about.html")
+
+
+def feedbackform(request):
+    custumer=Costumer.objects.get(username=request.user.username)
+
+    if(request.method=="POST"):
+        rating=request.POST.get("rating")
+        feedback=request.POST.get("feedback")
+        new_rating=Rating()
+        new_rating.customeruser=request.user.username
+        new_rating.value=rating
+        new_rating.review=feedback
+        new_rating.milkmanuser=custumer.costumer_milkman
+        new_rating.save()
+        return redirect("/costumer-dashboard/")
+    
+def updateprofilemilkman(request):
+    milkman = Milkman.objects.get(username=request.user.username)
+    dairy, created = Dairyimages.objects.get_or_create(
+        milkman_username=milkman.username
+    )
+
+    if request.method == "POST":
+        # Update Milkman info
+        milkman.name = request.POST.get('name')
+        milkman.email = request.POST.get('email')
+        milkman.phone = request.POST.get('phone')
+        milkman.city = request.POST.get('city')
+        milkman.addressline = request.POST.get('addressline')
+        milkman.milktype = request.POST.get('milktype')
+        milkman.price_per_liter = request.POST.get('price_per_liter')
+
+        if request.FILES.get('pic'):
+            milkman.pic = request.FILES['pic']
+
+        milkman.save()
+
+        # Update Dairy Images
+        for i in range(1, 5):
+            file = request.FILES.get(f'pic{i}')
+            if file:
+                # Delete previous file if exists
+                old_file = getattr(dairy, f'pic{i}')
+                if old_file:
+                    old_file.delete(save=False)
+                setattr(dairy, f'pic{i}', file)
+
+        dairy.save()
+        return redirect("/dashboard/")
+
+        
+    return render(request, 'updateprofile.html', {'milkman': milkman, 'dairy': dairy})
+
+def placeorder(request):
+    return render(request,"orderplace.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

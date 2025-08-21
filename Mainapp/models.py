@@ -39,8 +39,8 @@ class Costumer(models.Model):
     pic = models.FileField(upload_to=' castumer_images', default=None, null=True, blank=True)
     joined=models.DateField(auto_now=True)
     costumer_milkman=models.CharField(max_length=50)
-    quantiy_liter=models.IntegerField()
-    custumer_request=models.CharField(max_length=30,default="Pending",choices=[("Accept","Acept"),("Reject","Reject")])
+    quantiy_liter=models.DecimalField(max_digits=5, decimal_places=2)
+    custumer_request=models.CharField(max_length=30,default="Pending",choices=[("Accept","Acept"),("Reject","Reject"),("Pending","Pending")])
 
     def __str__(self):
         return f"{self.id} {self.username}"  

@@ -43,7 +43,7 @@
             <form method="post" ,action="">
                 {%csrf_token%}
                 <div class="mb-3">
-                    <select id="userType" class="form-control rounded-pill">
+                    <select id="userType" class="form-control rounded-pill" required>
                         <option value="">-- Select User Type --</option>
                         <option value="customer">Customer</option>
                         <option value="milkman">Milkman</option>

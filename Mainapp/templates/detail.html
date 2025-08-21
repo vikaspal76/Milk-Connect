@@ -101,8 +101,15 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <span>
                             <strong>{{ rating.customeruser }}</strong> rated
-                            <strong class="text-warning">{{ rating.value }} &#9733;</strong>
-                            {% if rating.review %}<br>"{{ rating.review }}"{% endif %}
+                            <strong class="text-warning">
+                                {% for i in "12345" %}
+                                {% if forloop.counter <= rating.value %} &#9733; {% else %} <span
+                                    class="text-secondary">&#9733;</span>
+                        {% endif %}
+                        {% endfor %}
+                        </strong>
+
+                        {% if rating.review %}<br>"{{ rating.review }}"{% endif %}
                         </span>
                     </div>
                     <small class="text-light d-block mt-2">

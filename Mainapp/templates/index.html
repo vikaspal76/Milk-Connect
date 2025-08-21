@@ -42,7 +42,7 @@
     .hero .title {
       color: #065f46;
       font-weight: 700;
-      
+
     }
 
     .card-milk {
@@ -131,24 +131,23 @@
               {%if usertype%}
               <li><a class="dropdown-item" href="/dashboard/">Dashboard</a></li>
               <li>
-                {%else%}
+              <li><a class="dropdown-item" href="/updateprofile/">Update profile</a></li>
+              {%else%}
               <li><a class="dropdown-item" href="/costumer-dashboard/">Dashboard</a></li>
               <li>
-                {%endif%}
-                <hr class="dropdown-divider">
-              </li>
               <li><a class="dropdown-item" href="">Update profile</a></li>
-              <li><a class="dropdown-item" href="/change-pass/">Change password</a></li>
-
-
-              <li><a class="dropdown-item" href="/logout/">Logout</a></li>
-            </ul>
+              {%endif%}
+              <hr class="dropdown-divider">
           </li>
-          {% else %}
-          <li class="nav-item ms-3">
-            <a class="btn btn-outline-primary" href="/login/">Login</a>
-          </li>
-          {% endif %}
+          <li><a class="dropdown-item" href="/change-pass/">Change password</a></li>
+          <li><a class="dropdown-item" href="/logout/">Logout</a></li>
+        </ul>
+        </li>
+        {% else %}
+        <li class="nav-item ms-3">
+          <a class="btn btn-outline-primary" href="/login/">Login</a>
+        </li>
+        {% endif %}
 
         </ul>
       </div>
@@ -159,47 +158,50 @@
 
   {% block body %}
   <!-- HERO -->
-  <section class="hero px-4">
+  <section class="hero px-3 py-5 bg-light">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-7">
-          <h1 class="title display-6">Fresh milk from trusted local dairies</h1>
-          <p class="small-muted">Find local milkmen, check prices, read reviews and become a regular customer — all in
-            one app-like website.</p>
+
+        <!-- TEXT -->
+        <div class="col-lg-7 mb-4 mb-lg-0 text-center text-lg-start mt-2">
+          <h1 class="fw-bold lh-sm hero-title mt-2">
+            Fresh milk from trusted local dairies
+          </h1>
+          <p class="text-muted mt-2">
+            Find local milkmen, check prices, read reviews and become a regular customer — all in one app-like website.
+          </p>
           <div class="mt-3">
             <a href="#milkmen" class="btn btn-success me-2">Browse Milkmen</a>
             <a href="#extraMilk" class="btn btn-outline-secondary">Extra Milk Today</a>
           </div>
         </div>
-        <div class="col-lg-5 text-lg-end d-none d-lg-block">
+
+        <!-- IMAGE -->
+        <div class="col-lg-5 text-center text-lg-end">
           <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=700&q=80"
-            alt="hero" style="max-width:380px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.08);">
+            alt="hero" class="img-fluid rounded shadow mx-2 mx-md-0">
         </div>
       </div>
 
+
       <!-- SEARCH -->
-      <form method="POST" action="">
-        {%csrf_token%}
-        <div class="row mt-4">
+      <form method="POST" action=""> {%csrf_token%} <div class="row mt-4">
           <div class="col-12">
             <div class="search-bar">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search by milkman name or area"
-                  name="search">
-                <select class="form-select" name="type">
+              <div class="input-group"> <input type="text" class="form-control"
+                  placeholder="Search by milkman name or area" name="search"> <select class="form-select" name="type">
                   <option value="">All Types</option>
                   <option value="cow">Cow</option>
                   <option value="Buffalo">Buffalo</option>
                   <option value="Both">Both</option>
-                </select>
-                <button class="btn btn-primary"><i class="fa fa-search"></i></button>
-              </div>
+                </select> <button class="btn btn-primary"><i class="fa fa-search"></i></button> </div>
             </div>
           </div>
         </div>
       </form>
     </div>
   </section>
+
 
   <!-- MILKMEN LIST -->
   <section class="py-4" id="milkmen">
@@ -213,7 +215,8 @@
         {% for data in data %}
         <div class="col-md-4">
           <div class="card card-milk shadow-sm rounded">
-            <div class="text-center p-4" style="background: linear-gradient(135deg, #d4fc79, #96e6a1);color: #2d3436;";>
+            <div class="text-center p-4" style="background: linear-gradient(135deg, #d4fc79, #96e6a1);color: #2d3436;"
+              ;>
               {% if data.pic %}
               <img src="{{ data.pic.url }}" alt="{{ data.name }}"
                 class="rounded-circle border border-4 border-white shadow-lg" width="160" height="160"
@@ -320,7 +323,7 @@
               </h6>
               <small class="text-muted">Type: {{today.animal_type}} • Price: ₹{{today.amount}}/L</small>
               <p class="mb-1 mt-1"><strong>{{today.quantity}} L</strong> available today</p>
-              <a href="#" class="btn btn-sm btn-primary">Place Order</a>
+              <a href="/placeorder/" class="btn btn-sm btn-primary">Place Order</a>
             </div>
           </div>
         </div>
