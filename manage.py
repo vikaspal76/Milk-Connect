@@ -3,7 +3,6 @@
 import os
 import sys
 
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MilkConnect.settings')
@@ -15,6 +14,14 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+
+    # Get port from Render environment variable
+    port = os.environ.get("PORT", 8000)
+    
+    # If the command is run without arguments, default to runserver on 0.0.0.0:$PORT
+    if len(sys.argv) == 1:
+        sys.argv += ["runserver", f"0.0.0.0:{port}"]
+
     execute_from_command_line(sys.argv)
 
 
