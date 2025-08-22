@@ -11,7 +11,7 @@
             <!-- Profile Picture -->
             <div class="text-center mb-4">
                 {% if milkman.pic %}
-                <img src="{{ milkman.pic.url }}" class="rounded-circle border border-warning"
+                <img src="{{ milkman.pic }}" class="rounded-circle border border-warning"
                     style="width:130px;height:130px;object-fit:cover;" id="profilePreview">
                 {% else %}
                 <img src="{% static 'images/default.jpg' %}" class="rounded-circle border border-warning"

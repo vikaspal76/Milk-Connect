@@ -30,4 +30,4 @@ urlpatterns = [
     path("feedback/",feedbackform),
     path("updateprofile/",updateprofilemilkman),
     path("placeorder/",placeorder),
-   ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+   ]

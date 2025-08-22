@@ -17,6 +17,8 @@ from datetime import date
 from django.utils.dateparse import parse_date
 from django.utils import timezone
 from django.db.models import Sum, F, ExpressionWrapper, FloatField
+import cloudinary.uploader
+import os
 def homepage(request):
     _extra_milk=Extra_Milk_Today.objects.filter(date=date.today(),status="stock")
     extra_milk=[]
@@ -181,7 +183,10 @@ def coustumer_signup(request, id):
         costumer.city = request.POST.get("city")
 
         if request.FILES.get("pic"):
-            costumer.pic = request.FILES.get("pic")
+            image_file= request.FILES.get("pic")
+            result = cloudinary.uploader.upload(image_file)
+            image_url = result.get('secure_url')
+            costumer.pic =image_url
 
         costumer.costumer_milkman =milkman.username
         costumer.quantiy_liter=request.POST.get("quantiy_liter")
@@ -327,7 +332,10 @@ def sign_up(request):
         milkman.city = request.POST.get("city")
 
         if request.FILES.get("pic"):
-            milkman.pic = request.FILES.get("pic")
+            image_file= request.FILES.get("pic")
+            result = cloudinary.uploader.upload(image_file)
+            image_url = result.get('secure_url')
+            milkman.pic =image_url
 
         milkman.milktype = request.POST.get("milktype")
         milkman.price_per_liter = request.POST.get("price_per_liter")
@@ -544,6 +552,24 @@ def feedbackform(request):
         new_rating.save()
         return redirect("/costumer-dashboard/")
     
+def get_public_id_from_url(url):
+    """Extract public_id from Cloudinary URL with folders"""
+    if not url:
+        return None
+    try:
+        # Example: https://res.cloudinary.com/demo/image/upload/v1234567/folder/filename.png
+        path = url.split("/upload/")[-1]   # v1234567/folder/filename.png
+        parts = path.split("/")
+        # Remove version (v1234567)
+        if parts[0].startswith("v"):
+            parts = parts[1:]
+        public_id_with_ext = "/".join(parts)   # folder/filename.png
+        public_id = os.path.splitext(public_id_with_ext)[0]  # folder/filename
+        return public_id
+    except Exception:
+        return None
+
+
 def updateprofilemilkman(request):
     milkman = Milkman.objects.get(username=request.user.username)
     dairy, created = Dairyimages.objects.get_or_create(
@@ -560,26 +586,40 @@ def updateprofilemilkman(request):
         milkman.milktype = request.POST.get('milktype')
         milkman.price_per_liter = request.POST.get('price_per_liter')
 
+        # Profile pic (Milkman)
         if request.FILES.get('pic'):
-            milkman.pic = request.FILES['pic']
+            # Delete old pic if exists
+            if milkman.pic:
+                old_id = get_public_id_from_url(milkman.pic)
+                if old_id:
+                    cloudinary.uploader.destroy(old_id)
+
+            # Upload new pic
+            result = cloudinary.uploader.upload(request.FILES['pic'])
+            milkman.pic = result.get('secure_url')
 
         milkman.save()
 
-        # Update Dairy Images
+        # Dairy images (pic1–pic4)
         for i in range(1, 5):
-            file = request.FILES.get(f'pic{i}')
+            file = request.FILES.get(f"pic{i}")
             if file:
-                # Delete previous file if exists
-                old_file = getattr(dairy, f'pic{i}')
-                if old_file:
-                    old_file.delete(save=False)
-                setattr(dairy, f'pic{i}', file)
+                # Delete old if exists
+                old_url = getattr(dairy, f'pic{i}')
+                if old_url:
+                    old_id = get_public_id_from_url(old_url)
+                    if old_id:
+                        cloudinary.uploader.destroy(old_id)
+
+                # Upload new
+                result = cloudinary.uploader.upload(file)
+                setattr(dairy, f'pic{i}', result.get('secure_url'))
 
         dairy.save()
         return redirect("/dashboard/")
 
-        
     return render(request, 'updateprofile.html', {'milkman': milkman, 'dairy': dairy})
+
 
 def placeorder(request):
     return render(request,"orderplace.html")
