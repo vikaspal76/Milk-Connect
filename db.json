@@ -1,0 +1,7703 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "milkman"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "costumer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "dairyimages"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "rating"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "dailyrecord"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "discount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "Mainapp",
+    "model": "extra_milk_today"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0e67ox8yxfcuqljoi2qt4zlzpsc3uo54",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pABWgGX7nsGMgODVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERWpx-N8L44LqDdMd6azK2ui4zyV2RB-1yaomf18P9OyjYy7f23jtNAClzTtlgBK0cW5Nt1sjZOnTajQQDEigyZ23tCEQOSJHyZhDvD_HXN8k:1uoQbT:LUa2IXRrtCYEBGgcGL6ue7l6MsKbxj6hnLjYhF965GE",
+    "expire_date": "2025-09-02T17:58:35.726Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3sllrt8tuyavgr13qprfdih3ki2dwi8i",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAUBe_C2hAKFKxL956BPPh8qRqalHZlvLsh6UK3M5N5i4B9K2FveQ0ziYsYxOmXRaRnrl3QA_W-yLTUbZ2j7Ik8bJO3hfLrerR_g4JW-hbkAIukvAZrq6z2gxkzK1CM5kyjmrQymU1kqxnwkZPBxM4pTs6Lzxf24jig:1upAKD:vAV4MUPInv5C8qHfOhBKtJIyTr_zgRNc9Jy7f_8RsIw",
+    "expire_date": "2025-09-04T18:47:49.405Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4cd5947gwojfioqqo9c5pyu777mgeqji",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSFjYIGU6X0Ga5eF4CQCyZ8qyt0jJBdJ-2bmvcWMx17mY0vrvLC4CuXF5XckjM9UO-EH1nuTsdV9XUh2RZ50k1Pj9Lqd7t9Bwa30WjlgRxkQxpzVYNLodAzAyjB5C5gw6gE9JW0oBh-UBQZnsrIeiIP4fAEZqThM:1umkp5:aPmVTYP5fGkHl0YQDhQ9NXeBqPIOMT0LHQ4RlEPxlbA",
+    "expire_date": "2025-08-29T03:09:43.022Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "78z4qd8qyyvxi2wx4pp9svm8u5ake1fo",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAysule7-BcB9I1dCktKvGf7dNutDtmZmziZTXpaa185xGEldhxOV3g4wvbgegZ26PSeLUlnkEeSjypF3eJ-L37XT_Dmruda-BCCNjRjtAIFsCaKNDxlg0oEcMXCL5UjgGbZ1yzpK3u8wOB6W8EZ8vKzU42w:1ulxS3:RhO-ABWDi4c4wR4rx8BrxHsYmZDWCh5E-aFDf-qKdu8",
+    "expire_date": "2025-08-26T22:26:39.902Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "adfd11y2wcdpjuwg87hy4xu8xc5v6pj2",
+  "fields": {
+    "session_data": "e30:1umk3J:y6Jy4rbpnfFV-2v_kFfeJ5YsHnNXpXH3_FpQGngCsUg",
+    "expire_date": "2025-08-29T02:20:21.101Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ei6qehpdhyadzp69k5or5qb5bww097au",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAUBe_C2hAKFKxL956BPPh8qRqalHZlvLsh6UK3M5N5i4B9K2FveQ0ziYsYxOmXRaRnrl3QA_W-yLTUbZ2j7Ik8bJO3hfLrerR_g4JW-hbkAIukvAZrq6z2gxkzK1CM5kyjmrQymU1kqxnwkZPBxM4pTs6Lzxf24jig:1unpG9:DyZZlj_7BNdSNOIZR5Jp515I6G6DT5SjCk6ximfPtpg",
+    "expire_date": "2025-09-01T02:06:05.372Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "epeesjyiz8stjhy94f36o4ibwsiii8nh",
+  "fields": {
+    "session_data": "eyJvdHAiOiI0ODQ4IiwidXNlcm5hbWUiOiJ2aWthc3BhbF83NiJ9:1uml6y:sGI4DZFpL91D5zWzpTTr1XHTwHz2xaHzAiof7jPYeCw",
+    "expire_date": "2025-08-29T03:28:12.314Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f6hqfo8t3zpi06ykywin6a66oo1bfmcq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pABWgGX7nsGMgODVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERWpx-N8L44LqDdMd6azK2ui4zyV2RB-1yaomf18P9OyjYy7f23jtNAClzTtlgBK0cW5Nt1sjZOnTajQQDEigyZ23tCEQOSJHyZhDvD_HXN8k:1up82R:dTcnzqV1ysbvxTA8_h_-A4Jp1Z2R_sak3PGzeMRT4Rc",
+    "expire_date": "2025-09-04T16:21:19.195Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gfd1wf1uhphc639u6jwkncvahr99jiir",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pABWgGX7nsGMgODVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERWpx-N8L44LqDdMd6azK2ui4zyV2RB-1yaomf18P9OyjYy7f23jtNAClzTtlgBK0cW5Nt1sjZOnTajQQDEigyZ23tCEQOSJHyZhDvD_HXN8k:1up7Xg:qL7RxQDVz8atyVq6bH971AJnGEqICOFvsNTu7ttyPwI",
+    "expire_date": "2025-09-04T15:49:32.614Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l08phb23iz2cz8pu7pa0gr6lv2ii7lf9",
+  "fields": {
+    "session_data": "eyJvdHAiOiIyOTAyIiwidXNlcm5hbWUiOiJ2aWthc3BhbF83NiJ9:1umlC0:k3P5uyiEVLKk4gNdNPGim9RRV7pLeBjnXtP1FGuieZk",
+    "expire_date": "2025-08-29T03:33:24.116Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n2a1ai635god11unb5glxl1tuusm3pnn",
+  "fields": {
+    "session_data": "e30:1umk5n:5P8FEfQmBcJ5P1yAg4hteJ5yOXAJObjY4jYuVxnkTkQ",
+    "expire_date": "2025-08-29T02:22:55.499Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ro8ojmy8w2gb2eu832jrvlq3ap420aux",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYpC7DYJS_Y9Q2U7Di2gVOpnhbg7VOoCtm9m3sv0tK1Dvy0692M2FxPM6XdjkofWHeQ71dtkZarrPLLdFXvQxXZT1uf1cP8OBlqGb60UYuEkwZ0TR8_KTsAJi7ACIrapBSUkLImidx4xRwBRbACbNhfz_gAC9zgz:1un3XJ:fZ5myi3Yu9IPKHIa4LvL5gjXxECbi9EGD3I9Mudmwog",
+    "expire_date": "2025-08-29T23:08:37.559Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xr2ie0i4dhji975e2754v2a6sfog0vta",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYpC7DYJS_Y9Q2U7Di2gVOpnhbg7VOoCtm9m3sv0tK1Dvy0692M2FxPM6XdjkofWHeQ71dtkZarrPLLdFXvQxXZT1uf1cP8OBlqGb60UYuEkwZ0TR8_KTsAJi7ACIrapBSUkLImidx4xRwBRbACbNhfz_gAC9zgz:1unmu3:hMm877vLlydZ79o9iJLbTwPmq11Bl7A1Bu8OCciEBPM",
+    "expire_date": "2025-08-31T23:35:07.656Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y6y85vxq2i1t3789jcprpvtkms3mwf3g",
+  "fields": {
+    "session_data": ".eJxVzM0OgyAQBOB34dyQgrJCj733GcguP9VqwYj20vTdi4kXr_PNzJfldWY31rSg2YVtJSwJ36Emn2HEMuNkO6hgcVt7u7MdfFV5zgjdGNIO_oXpmbnLaV0G4nuFH1r4I_sw3Y_u6aDH0td1G3XnHWkhJGgVqdFgjCPjBZGKEkCGzonWBKGEgYjaNRGi1M6QUfEq2O8Pd49DUw:1umHib:EH4CqpWHcB3hk-IMnL4-5nntm76XdRSCzFtXw-bB7uE",
+    "expire_date": "2025-08-27T20:05:05.214Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yexmjij2poqsy325kt2ita67zxxfg58t",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrleMPJT1nsHa9DgmgWIqTKuLuJFIKaN_MvE0lWpchra3MaRR1VaguvxtTfpXpAPKk6VF1rtMyj6wPRZ-06XuV8r6d7t_BQG3Ya0YXRRxHzD1ib4G9GGdzAOEIiALBgu_ybmFwMZMPXQjAZKIzYEl9vthdNxU:1upJTi:cxLlYo0i-vqDLEF_L4OZxhH-zpHgH2TnKgqR8-bVjD4",
+    "expire_date": "2025-09-05T04:34:14.848Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yoz5pi7yty8950xp4xdr5zvgzec780el",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAUBe_C2hAKFKxL956BPPh8qRqalHZlvLsh6UK3M5N5i4B9K2FveQ0ziYsYxOmXRaRnrl3QA_W-yLTUbZ2j7Ik8bJO3hfLrerR_g4JW-hbkAIukvAZrq6z2gxkzK1CM5kyjmrQymU1kqxnwkZPBxM4pTs6Lzxf24jig:1umHMj:Rwu41IcGK73j_6O1CEPCd_TD9Lkuw5boi2KhaQqXVvU",
+    "expire_date": "2025-08-27T19:42:29.819Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zxnwuj0igxr9tw3jqfwn6ml4nz432j1k",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyEsUBc8eu83EFhAqgaS0p6M_64kPejt5c1kXsz5fStu72l1S2QXBsBOv2fw9Eh1kHj39dY4tbqtS-BD4QftfG4xPa-H-xcovpfRJVQyWK8tgIEczaQj4ZR1omgwg0UrKeFZSomCFMqgDSSt8LuF0YK9P-_hNvM:1un7He:UfpanEmep7od_ys4eedcE_lNxYL4-mAk10YKYbFxHQQ",
+    "expire_date": "2025-08-30T03:08:42.291Z"
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 1,
+  "fields": {
+    "name": "VIKASH SINGH",
+    "username": "vikaspal_76",
+    "email": "pal0552609@gmail.com",
+    "phone": "09569824382",
+    "addressline": "united engineering college of education hostel block C near ITS college of engineering",
+    "city": "Farrukhabad",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/vikaspal_76_2.jpg",
+    "joined": "2025-08-22",
+    "milktype": "cow",
+    "price_per_liter": 90
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 2,
+  "fields": {
+    "name": "amit singh",
+    "username": "amitpal_76",
+    "email": "amit@gmail.com",
+    "phone": "09628168544",
+    "addressline": "Kailash Palace vali gali rishinagar",
+    "city": "Hyderabad",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/WhatsApp_Image_2025-07-31_at_05.04.20_347978f6.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalow",
+    "price_per_liter": 50
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 3,
+  "fields": {
+    "name": "pranjal mishra",
+    "username": "pranjal_mishra",
+    "email": "X@pranjalmishra.dev",
+    "phone": "08765681040",
+    "addressline": "Plot No. 2, Yamuna Expy, opposite Buddha International Circuit, Sector 17A,",
+    "city": "noida",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/vikaspal.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalow",
+    "price_per_liter": 50
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 4,
+  "fields": {
+    "name": "Rakesh pal",
+    "username": "rakesh_fb",
+    "email": "rakesh@gmail.com",
+    "phone": "09569824382",
+    "addressline": null,
+    "city": "greater noida",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/profile_picture_EU6Jqtk.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalo",
+    "price_per_liter": 75
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 5,
+  "fields": {
+    "name": "Raju pal",
+    "username": "rajupal@1234",
+    "email": "rajupal@123",
+    "phone": "09569824380",
+    "addressline": null,
+    "city": "delhi",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/raju_pVfkF1O.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Cow",
+    "price_per_liter": 90
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 6,
+  "fields": {
+    "name": "sumit pal",
+    "username": "sumtpal@123",
+    "email": "sumitpal@gmail.com",
+    "phone": "122334455",
+    "addressline": null,
+    "city": "NOIDA",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/2184.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalo",
+    "price_per_liter": 100
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 7,
+  "fields": {
+    "name": "vishal kumar sahu",
+    "username": "vishal_01",
+    "email": "Vishalskumar199@gmail.com",
+    "phone": "9354934740",
+    "addressline": null,
+    "city": "delhi",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/vishal.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalo",
+    "price_per_liter": 100
+  }
+},
+{
+  "model": "Mainapp.milkman",
+  "pk": 8,
+  "fields": {
+    "name": "SACHIN PAL",
+    "username": "sachinpal@123",
+    "email": "sachin@gmail.com",
+    "phone": "09628168544",
+    "addressline": null,
+    "city": "Farrukhabad",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/images/2141.jpg",
+    "joined": "2025-08-22",
+    "milktype": "Buffalo",
+    "price_per_liter": 110
+  }
+},
+{
+  "model": "Mainapp.rating",
+  "pk": 3,
+  "fields": {
+    "milkmanuser": "vikaspal_76",
+    "customeruser": "pooja_saxena",
+    "value": 5,
+    "review": "very good person always on time",
+    "created_at": "2025-08-20T09:14:43.174Z"
+  }
+},
+{
+  "model": "Mainapp.rating",
+  "pk": 6,
+  "fields": {
+    "milkmanuser": "vikaspal_76",
+    "customeruser": "ankitpal@123",
+    "value": 3,
+    "review": "good man always delivered pure milkman",
+    "created_at": "2025-08-21T13:26:36.545Z"
+  }
+},
+{
+  "model": "Mainapp.rating",
+  "pk": 7,
+  "fields": {
+    "milkmanuser": "vikaspal_76",
+    "customeruser": "rahul_sharma",
+    "value": 2,
+    "review": "not good",
+    "created_at": "2025-08-21T18:47:00.249Z"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 1,
+  "fields": {
+    "name": "Asthsa  singjh",
+    "username": "astha@123",
+    "email": "astha@gmail.com",
+    "phone": "07007242716",
+    "addressline": "Kailash Palace vali gali rishinagar",
+    "city": "NOIDA",
+    "pic": "https://res.cloudinary.com/dsanolt1o/image/upload/castumer_images/astha.jpg",
+    "joined": "2025-08-22",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Reject"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 2,
+  "fields": {
+    "name": "Rahul Sharma",
+    "username": "rahul_sharma",
+    "email": "X@pranjalmishra.dev",
+    "phone": "9876543201",
+    "addressline": "21 MG Road",
+    "city": "Hyderabad",
+    "pic": "",
+    "joined": "2025-08-22",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "1.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 3,
+  "fields": {
+    "name": "Priya Singh",
+    "username": "priya_singh",
+    "email": "priya.singh@example.com",
+    "phone": "9876543202",
+    "addressline": "14 Park Street",
+    "city": "Hyderabad",
+    "pic": "",
+    "joined": "2025-08-19",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 4,
+  "fields": {
+    "name": "Amit Verma",
+    "username": "amit_verma",
+    "email": "amit.verma@example.com",
+    "phone": "9876543203",
+    "addressline": "88 Patel Nagar",
+    "city": "Hyderabad",
+    "pic": "",
+    "joined": "2025-08-19",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 5,
+  "fields": {
+    "name": "Neha Gupta",
+    "username": "neha_gupta",
+    "email": "neha.gupta@example.com",
+    "phone": "9876543204",
+    "addressline": "united college of education uttar pradesh greater nodia",
+    "city": "greater noida",
+    "pic": "",
+    "joined": "2025-08-19",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "1.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 6,
+  "fields": {
+    "name": "Rohan Mehta",
+    "username": "rohan_mehta",
+    "email": "rohan.mehta@example.com",
+    "phone": "9876543204",
+    "addressline": "united college of education uttar pradesh greater nodia",
+    "city": "greater noida",
+    "pic": "",
+    "joined": "2025-08-19",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "1.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 7,
+  "fields": {
+    "name": "pooja saxena",
+    "username": "pooja_saxena",
+    "email": "pooja@gmail.com",
+    "phone": "09628168544",
+    "addressline": "nagla nian bholepur fatehgarh",
+    "city": "Farrukhabad",
+    "pic": "",
+    "joined": "2025-08-19",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 8,
+  "fields": {
+    "name": "ANUJ VERMA",
+    "username": "anujverma@123",
+    "email": "anujverma@gmail.com",
+    "phone": "08181847454",
+    "addressline": "Kailash Palace vali gali rishinagar",
+    "city": "NOIDA",
+    "pic": "",
+    "joined": "2025-08-20",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "1.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 9,
+  "fields": {
+    "name": "ankit",
+    "username": "ankitpal@123",
+    "email": "ankitpal@gmail.com",
+    "phone": "07007242716",
+    "addressline": "Kailash Palace vali gali rishinagar",
+    "city": "NOIDA",
+    "pic": "",
+    "joined": "2025-08-21",
+    "costumer_milkman": "vikaspal_76",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 10,
+  "fields": {
+    "name": "piyus",
+    "username": "piyush",
+    "email": "piyush@gmail.com",
+    "phone": "7007242716",
+    "addressline": "Kailash Palace vali gali rishinagar",
+    "city": "NOIDA",
+    "pic": "",
+    "joined": "2025-08-21",
+    "costumer_milkman": "sachinpal@123",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Accept"
+  }
+},
+{
+  "model": "Mainapp.costumer",
+  "pk": 11,
+  "fields": {
+    "name": "akash pal",
+    "username": "akash@123",
+    "email": "akash@gmail.com",
+    "phone": "1234567890",
+    "addressline": "nagala nian bholepur fatehgarh",
+    "city": "fatehgarh",
+    "pic": "",
+    "joined": "2025-08-21",
+    "costumer_milkman": "sachinpal@123",
+    "quantiy_liter": "2.00",
+    "custumer_request": "Pending"
+  }
+},
+{
+  "model": "Mainapp.dairyimages",
+  "pk": 8,
+  "fields": {
+    "milkman_username": "vikaspal_76",
+    "pic1": "https://res.cloudinary.com/dsanolt1o/image/upload/v1755859987/djherymkg85znujsdhzm.png",
+    "pic2": "https://res.cloudinary.com/dsanolt1o/image/upload/v1755859991/whgg7ju7udxlngbep09m.png",
+    "pic3": "https://res.cloudinary.com/dsanolt1o/image/upload/v1755860000/wno3cch4gtbrpikyjerp.png",
+    "pic4": "https://res.cloudinary.com/dsanolt1o/image/upload/v1755860002/twsyrtge33g30eqtyanm.png"
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 16,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "astha@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 17,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rahul_sharma",
+    "delivered_qty": "3.00",
+    "extra_qty": "1.00",
+    "status": "Delivered",
+    "custumer_status": "Delivered",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 18,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "priya_singh",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Absent",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 19,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "amit_verma",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 20,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "neha_gupta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Absent",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 21,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rohan_mehta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 22,
+  "fields": {
+    "date": "2025-08-18",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "pooja_saxena",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Extra",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 121,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "astha@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 122,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rahul_sharma",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 123,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "priya_singh",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 124,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "amit_verma",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 125,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "neha_gupta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 126,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rohan_mehta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 127,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "pooja_saxena",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 128,
+  "fields": {
+    "date": "2025-08-19",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "anujverma@123",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 145,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "astha@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "2.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 146,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rahul_sharma",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": "for guess"
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 147,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "priya_singh",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 148,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "amit_verma",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 149,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "neha_gupta",
+    "delivered_qty": "1.00",
+    "extra_qty": "1.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 150,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rohan_mehta",
+    "delivered_qty": "1.00",
+    "extra_qty": "1.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 151,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "pooja_saxena",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Absent",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 152,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "anujverma@123",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 153,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "ankitpal@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "1.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 184,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rahul_sharma",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Delivered",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 185,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "priya_singh",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 186,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "amit_verma",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 187,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "neha_gupta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 188,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rohan_mehta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 189,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "pooja_saxena",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 190,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "anujverma@123",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 191,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "ankitpal@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 192,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rahul_sharma",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 193,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "priya_singh",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 194,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "amit_verma",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 195,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "neha_gupta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 196,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "rohan_mehta",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 197,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "pooja_saxena",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 198,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "anujverma@123",
+    "delivered_qty": "1.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.dailyrecord",
+  "pk": 199,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "vikaspal_76",
+    "customer_username": "ankitpal@123",
+    "delivered_qty": "2.00",
+    "extra_qty": "0.00",
+    "status": "Delivered",
+    "custumer_status": "Notupdated",
+    "notes": ""
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 1,
+  "fields": {
+    "email": "pal0552609@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 2,
+  "fields": {
+    "email": "Vishalskumar199@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 3,
+  "fields": {
+    "email": "pranjal@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 4,
+  "fields": {
+    "email": "Vishalskumar199@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 5,
+  "fields": {
+    "email": "pranjal@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 6,
+  "fields": {
+    "email": "pal0552609@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.discount",
+  "pk": 7,
+  "fields": {
+    "email": "anujverma@gmail.com"
+  }
+},
+{
+  "model": "Mainapp.extra_milk_today",
+  "pk": 16,
+  "fields": {
+    "date": "2025-08-20",
+    "milkman_username": "vishal_01",
+    "milkman_name": "vishal kumar sahu",
+    "quantity": "5.00",
+    "amount": 1000,
+    "animal_type": "cow",
+    "status": "stock"
+  }
+},
+{
+  "model": "Mainapp.extra_milk_today",
+  "pk": 32,
+  "fields": {
+    "date": "2025-08-21",
+    "milkman_username": "sachinpal@123",
+    "milkman_name": "SACHIN PAL",
+    "quantity": "2.00",
+    "amount": 150,
+    "animal_type": "buffalo",
+    "status": "stock"
+  }
+},
+{
+  "model": "Mainapp.extra_milk_today",
+  "pk": 35,
+  "fields": {
+    "date": "2025-08-22",
+    "milkman_username": "vikaspal_76",
+    "milkman_name": "VIKASH SINGH",
+    "quantity": "3.00",
+    "amount": 69000,
+    "animal_type": "buffalo",
+    "status": "stock"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add milkman",
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "codename": "add_milkman"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change milkman",
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "codename": "change_milkman"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete milkman",
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "codename": "delete_milkman"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view milkman",
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "codename": "view_milkman"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add costumer",
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "codename": "add_costumer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change costumer",
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "codename": "change_costumer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete costumer",
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "codename": "delete_costumer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view costumer",
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "codename": "view_costumer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add dairyimages",
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "codename": "add_dairyimages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change dairyimages",
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "codename": "change_dairyimages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete dairyimages",
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "codename": "delete_dairyimages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view dairyimages",
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "codename": "view_dairyimages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add rating",
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "codename": "add_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change rating",
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "codename": "change_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete rating",
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "codename": "delete_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view rating",
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "codename": "view_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add daily record",
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "codename": "add_dailyrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change daily record",
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "codename": "change_dailyrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete daily record",
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "codename": "delete_dailyrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view daily record",
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "codename": "view_dailyrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add discount",
+    "content_type": [
+      "Mainapp",
+      "discount"
+    ],
+    "codename": "add_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change discount",
+    "content_type": [
+      "Mainapp",
+      "discount"
+    ],
+    "codename": "change_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete discount",
+    "content_type": [
+      "Mainapp",
+      "discount"
+    ],
+    "codename": "delete_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view discount",
+    "content_type": [
+      "Mainapp",
+      "discount"
+    ],
+    "codename": "view_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add extra_ milk_ today",
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "codename": "add_extra_milk_today"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change extra_ milk_ today",
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "codename": "change_extra_milk_today"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete extra_ milk_ today",
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "codename": "delete_extra_milk_today"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view extra_ milk_ today",
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "codename": "view_extra_milk_today"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5g2AXUUTpXxAnAFZWkJaP2$EvD2R1cMaeA3EX6bqfDW3vttLA2lK+trCyUgKkzq8/4=",
+    "last_login": "2025-08-22T09:00:31.723Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-12T13:17:29.863Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Ce6AxU45TGTXoAthfVUvG9$I5/KigzozcmViZFFGCx1HFpbv0kOGw5hqzrQ+9kLTa0=",
+    "last_login": "2025-08-22T10:42:11.571Z",
+    "is_superuser": false,
+    "username": "vikaspal_76",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-12T13:24:19.769Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$d99zPZLivCgaMvGuGuqsWh$JH3IcMk0VN5so0APzIEDk28+89bqoRsaqtR2nwZOtds=",
+    "last_login": "2025-08-12T20:23:26.528Z",
+    "is_superuser": false,
+    "username": "amitpal_76",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-12T13:25:26.530Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$qYmvE0pxgmlUh4GMco3ieW$+8AsAlF/ysy3hTbbOL9SC8vFRxBAN4nrhl9Xf8cwhxA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "pranjal_mishra",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-12T13:26:40.863Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Q4utbddh1SRuBO0NOjaEv8$64sGuyfdW3J1MBKIUgL/YrVy1VTJxyvPqZSpl3kGa7k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rakesh_up",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-13T13:10:29.274Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$NQKwr8BsbHCN8yTtcRXVtR$o2UobEdBJBc/Vywyhpgf1eJS2ck43H86kqVF1tpNue0=",
+    "last_login": "2025-08-21T13:15:29.310Z",
+    "is_superuser": false,
+    "username": "rakesh_fb",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-13T13:21:53.437Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Jc8Ocl4ofgE3yZZ15jfDkJ$8vC+ynBnxaO8KosU5sqj4nwlyK/EBsegLUfpdeZ6guc=",
+    "last_login": "2025-08-17T23:35:07.563Z",
+    "is_superuser": false,
+    "username": "astha@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-13T17:21:24.024Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$ovtptg8Pakn1i56kLG5PiS$kjyCfGdKS+n2xBbwpLEKLQpjUDGPnchqn88faNSL0ZY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rajupal@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T03:25:06.098Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$h1kZbL8mNon4QsPOVOWtn4$oSZf2ixA2yUg2+WIkAsR1cGTxDIcKe1pL4NGup2sHhU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rajupal@321",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T03:28:17.687Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$53XtLLtDrLHWLjuGpLfH2Q$DCQXi27IQWEeuJ/AdIG/Ll8Vmu+5FVP8zDIZ7i044pk=",
+    "last_login": "2025-08-14T14:04:41.590Z",
+    "is_superuser": false,
+    "username": "rajupal@1234",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T03:37:53.200Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$riRBctKrr3RtWN4sQo0DfD$cX/ltHQA5iexhn2j94ykDb84YURGHuJdjYs5x+ha1QQ=",
+    "last_login": "2025-08-17T16:32:41.162Z",
+    "is_superuser": false,
+    "username": "sumtpal@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T14:09:56.437Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$84Ai8RrcDJcHc11NfPDt0B$QKQU8CPp8m3yNDgfzqDD8IIK2g3DYoAmdpXc5swUIuw=",
+    "last_login": "2025-08-22T04:33:52.727Z",
+    "is_superuser": false,
+    "username": "rahul_sharma",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T21:48:31.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$3nNdq9eG7d7NG7lEPNFtjU$kNbQggGAZBUNu52NeUOml2RJ/pU/oHDcklRln2kDPr8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "priya_singh",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T21:49:05.233Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$amjv4e3Xb31f2ggqCIOR2i$awr5PXnkjQGDZq4ArmU7cHNfqbVWc2gl4pflTNbYoY0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "amit_verma",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T21:49:40.306Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$RsRSzYhKusOtFrhHyo7hkX$6ufVZabSkS0J196xm2cAsoUBI7pomIwqIVR5aSl+rBg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "neha_gupta",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T21:50:11.306Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$c2Qn13KdYBSCGcWDvOF8sS$MLASlvMaaHhsw2b36y1KFByoia+to5hHqBAlIISSiWY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rohan_mehta",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-14T21:51:07.540Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$iiVb95NkSkOAptrSQnSIct$q09I5rGKn0//R274Y4PHtdT3XlfEVC28eI3jCCUhDcM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "pooja_saxena",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-15T01:39:48.053Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$YL5CMXMdIhB4iM35kdWxFz$Fzd2N4VeuxyQG8soZFSSsdzLxoU+XSgjTr9cO1/yU5Y=",
+    "last_login": "2025-08-15T03:09:42.958Z",
+    "is_superuser": false,
+    "username": "vishal_01",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-15T02:55:09.048Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$4s6x1FqOyw4oYLKwhuRtn5$GrRzZoA6rP5d0W4EgmcFg0fPeRtq4GliQI7YGbh8sfg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "anujverma@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-19T17:29:00.740Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$bDyXeymFfSK5iFP1yuLelo$QRUp5bMZCJxh2/iZtof8BdHzJ36Cpn6ITV2SmNnhuOs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ankitpal",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T09:25:21.106Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$CdNnmfPLJjLLxGB2l2JUW0$g5/NLCnPBRSJDqwTW8oYG0v1hbRPR0Ce0SCGLFctBVc=",
+    "last_login": "2025-08-21T14:35:26.306Z",
+    "is_superuser": false,
+    "username": "ankitpal@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T09:26:09.847Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$QDCPBcAxgvWheqtaeyncbR$vczyuNWvZ8xFDso0DmXKJL7O+FuCzoqrccpNzGkTkjU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "abhay@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "abhay@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T12:24:24.329Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$HQtBJarcJCCEbOGRiAz2kU$hmSVWYpF7cE5AYMCKwYm9ZNok+puVoNI5DRbgUldcjg=",
+    "last_login": "2025-08-21T05:39:57.668Z",
+    "is_superuser": false,
+    "username": "sachinpal@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "sachin@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T05:03:20.134Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$D8Wbj8voaVpFBkVUFuFVrx$livklVRZegsM9eUeJxBCmtgUZxub5zg+m6mvSKcnVe4=",
+    "last_login": "2025-08-21T05:06:43.953Z",
+    "is_superuser": false,
+    "username": "ankush@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "ankush@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T05:05:48.492Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$3WCM1RFLE4JJWKjxDtaiN5$quh+jyf+sdQLv9qFv/rD6otj224mpgSe/oyy26hJsGE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "piyush",
+    "first_name": "",
+    "last_name": "",
+    "email": "piyush@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T05:11:25.069Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$LiTrm0QGIUi80mSreIiiq8$4LQgjO8ASQ4N/qm+vb818tblnhcfeUFLShfCD5dv2Lg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "arvind",
+    "first_name": "",
+    "last_name": "",
+    "email": "arvindpal@123",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T05:18:30.873Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$GCwESM78aZ2L9zxlBBbWrD$BN9+foW6b9T3mo+c0yHZXeIYFvY+tYLNaaIfhjG5twU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "akash@123",
+    "first_name": "",
+    "last_name": "",
+    "email": "akash@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T05:23:38.593Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-12T13:19:56.335Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "1",
+    "object_repr": "1 vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-12T13:20:41.400Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "2",
+    "object_repr": "2 amitpal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-12T13:22:01.978Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "3",
+    "object_repr": "3 pranjal_mishra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-12T13:24:21.442Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-12T13:25:28.079Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "amitpal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-12T13:26:42.399Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "pranjal_mishra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-13T17:09:44.718Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "1",
+    "object_repr": "Dairyimages object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-13T17:21:25.687Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "astha@123",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-13T17:25:14.515Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "1",
+    "object_repr": "Costumer object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-13T17:26:01.817Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "1",
+    "object_repr": "Rating object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-14T03:43:10.475Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "1",
+    "object_repr": "1 vikaspal_76",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-14T21:48:32.242Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "12",
+    "object_repr": "rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-14T21:49:06.761Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "13",
+    "object_repr": "priya_singh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-14T21:49:41.837Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "14",
+    "object_repr": "amit_verma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-14T21:50:12.872Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "15",
+    "object_repr": "neha_gupta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-14T21:51:09.072Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "16",
+    "object_repr": "rohan_mehta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-14T21:53:36.927Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "1",
+    "object_repr": "Costumer object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-14T21:56:09.899Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "Costumer object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-14T21:57:30.868Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "3",
+    "object_repr": "Costumer object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-14T21:58:39.317Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "4",
+    "object_repr": "Costumer object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-14T21:59:31.647Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "5",
+    "object_repr": "Costumer object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-14T22:00:13.787Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "6",
+    "object_repr": "Costumer object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-14T22:02:43.122Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-14 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-14T22:03:17.945Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-14 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Amount\", \"Notes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-14T22:04:14.671Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "2",
+    "object_repr": "2025-08-14 - vikaspal_76 → priya_singh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-14T22:04:55.710Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "3",
+    "object_repr": "2025-08-14 - vikaspal_76 → amit_verma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-16T14:58:01.996Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "1",
+    "object_repr": "1 vikaspal_76",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Milktype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-16T15:06:05.957Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "Costumer object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Quantiy liter\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-16T16:13:00.347Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "1",
+    "object_repr": "Dairyimages object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pic1\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-16T17:04:51.892Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "7",
+    "object_repr": "7 pooja_saxena",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-16T17:05:22.464Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "2",
+    "object_repr": "Rating is given by pooja_saxena for vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-17T01:08:24.328Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "2",
+    "object_repr": "Rating is given by pooja_saxena for vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-17T21:17:58.537Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-17T21:18:14.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "5",
+    "object_repr": "2025-08-16 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-17T21:18:42.540Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-15 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-17T21:19:34.131Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-14 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-17T21:19:51.499Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-15 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-17T21:20:02.613Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "5",
+    "object_repr": "2025-08-16 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-17T21:20:21.008Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-17T21:48:51.004Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "1",
+    "object_repr": "1 vikaspal_76",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price per liter\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-18T03:25:32.110Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-15 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-18T03:25:44.094Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "5",
+    "object_repr": "2025-08-16 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-18T03:25:50.627Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-18T03:25:57.254Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-14 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-18T03:32:36.027Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "3",
+    "object_repr": "2025-08-14 - vikaspal_76 → amit_verma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-18T03:40:22.969Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-18T03:41:03.580Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-17T18:53:24.150Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "7",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-17T19:06:50.696Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "7",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-17T19:18:00.014Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "7",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-17T19:20:13.043Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "7",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-17T19:58:49.782Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-15 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-17T20:04:40.753Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-17T20:05:14.445Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-17T20:12:08.790Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-17T20:12:41.826Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-17T20:12:47.236Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-17T20:12:58.384Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-17T20:14:49.632Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-17T20:16:07.836Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-17T20:19:21.565Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Delivered qty\", \"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-17T20:23:11.518Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-17T20:26:20.763Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "6",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-17T20:26:39.683Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "8",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-18T02:06:22.591Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "8",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-18T02:06:33.423Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "8",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-18T02:07:50.516Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "8",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-18T12:27:27.759Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "8",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-18T12:49:15.953Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "10",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Extra qty\", \"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-18T13:34:37.259Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "10",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-18T16:57:40.584Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "10",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-18T16:58:24.761Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "10",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "15",
+    "object_repr": "2025-08-18 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "14",
+    "object_repr": "2025-08-18 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "13",
+    "object_repr": "2025-08-18 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "12",
+    "object_repr": "2025-08-18 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "11",
+    "object_repr": "2025-08-18 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "10",
+    "object_repr": "2025-08-18 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-08-18T17:09:57.243Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "9",
+    "object_repr": "2025-08-18 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-08-18T17:25:18.063Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-08-18T17:28:05.514Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-08-18T17:32:36.879Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "3",
+    "object_repr": "3 pranjal_mishra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-08-19T06:09:35.891Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "1",
+    "object_repr": "Extra_Milk_Today object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-08-19T06:09:52.620Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "7",
+    "object_repr": "7 vishal_01",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-08-19T06:10:27.620Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "2",
+    "object_repr": "Extra_Milk_Today object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-08-19T06:10:43.247Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "4",
+    "object_repr": "4 rakesh_fb",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-08-19T06:11:22.593Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "3",
+    "object_repr": "Extra_Milk_Today object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-08-19T06:45:25.599Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "2",
+    "object_repr": "2 vishal kumar sahu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "50",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "49",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "48",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "47",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "46",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "45",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "44",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "43",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "42",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "41",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "40",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "39",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "38",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "37",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "36",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "35",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "34",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "33",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "32",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "31",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "30",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "29",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "28",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "27",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "26",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "25",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "24",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-08-19T07:15:02.865Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "23",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "113",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "112",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "111",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "110",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "109",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "108",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "107",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "106",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "105",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "104",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "103",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "102",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "101",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "100",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "99",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "98",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "97",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "96",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "95",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "94",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "93",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "92",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "91",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "90",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "89",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "88",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.449Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "87",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "86",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "85",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "84",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "83",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "82",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "81",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "80",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "79",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "78",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "77",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "76",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "75",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "74",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "73",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "72",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "71",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "70",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "69",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "68",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "67",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "66",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "65",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "64",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "63",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "62",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "61",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "60",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "59",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "58",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "57",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "56",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "55",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "54",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "53",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "52",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2025-08-19T07:56:48.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "51",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2025-08-19T15:28:58.600Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "1",
+    "object_repr": "1 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2025-08-19T15:32:59.224Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "4",
+    "object_repr": "4 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2025-08-19T15:43:18.187Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "2",
+    "object_repr": "2 vishal kumar sahu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2025-08-19T15:43:48.720Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "5",
+    "object_repr": "5 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2025-08-19T15:43:48.720Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "3",
+    "object_repr": "3 Rakesh pal",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2025-08-19T15:46:42.808Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "6",
+    "object_repr": "6 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2025-08-19T15:46:42.808Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "2",
+    "object_repr": "2 vishal kumar sahu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2025-08-19T15:48:49.741Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "7",
+    "object_repr": "7 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2025-08-19T15:49:53.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "8",
+    "object_repr": "8 VIKASH SINGH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2025-08-19T15:53:33.748Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "9",
+    "object_repr": "9 vishal kumar sahu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2025-08-19T15:53:51.397Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "8",
+    "object_repr": "8 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2025-08-19T15:54:58.603Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "10",
+    "object_repr": "10 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2025-08-19T15:55:26.026Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "9",
+    "object_repr": "9 vishal kumar sahu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2025-08-19T16:05:51.836Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "13",
+    "object_repr": "13 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2025-08-19T16:05:51.836Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "12",
+    "object_repr": "12 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2025-08-19T16:05:51.836Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "11",
+    "object_repr": "11 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2025-08-19T16:52:49.341Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "15",
+    "object_repr": "15 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2025-08-19T16:52:49.341Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "14",
+    "object_repr": "14 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2025-08-19T16:53:35.205Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "16",
+    "object_repr": "16 vishal kumar sahu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2025-08-19T16:54:09.335Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "17",
+    "object_repr": "17 VIKASH SINGH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2025-08-19T16:54:47.752Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2025-08-19T16:56:35.181Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "17",
+    "object_repr": "17 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2025-08-19T16:59:28.074Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "19",
+    "object_repr": "19 VIKASH SINGH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2025-08-19T17:01:27.445Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2025-08-19T17:01:56.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2025-08-19T17:15:04.085Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "7",
+    "object_repr": "7 pooja_saxena",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2025-08-19T17:15:19.650Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "6",
+    "object_repr": "6 rohan_mehta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2025-08-19T17:15:30.309Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "5",
+    "object_repr": "5 neha_gupta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2025-08-19T17:15:44.229Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "4",
+    "object_repr": "4 amit_verma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2025-08-19T17:15:52.402Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "3",
+    "object_repr": "3 priya_singh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2025-08-19T17:15:58.252Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2025-08-19T17:16:09.267Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "1",
+    "object_repr": "1 astha@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "120",
+    "object_repr": "2025-08-19 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "119",
+    "object_repr": "2025-08-19 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "118",
+    "object_repr": "2025-08-19 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "117",
+    "object_repr": "2025-08-19 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "116",
+    "object_repr": "2025-08-19 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "115",
+    "object_repr": "2025-08-19 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2025-08-19T18:27:23.237Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "114",
+    "object_repr": "2025-08-19 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2025-08-20T06:52:28.719Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "20",
+    "object_repr": "20 VIKASH SINGH",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2025-08-20T07:00:59.338Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "20",
+    "object_repr": "20 VIKASH SINGH",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2025-08-20T07:01:42.364Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2025-08-20T07:01:51.620Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "16",
+    "object_repr": "16 vishal kumar sahu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "136",
+    "object_repr": "2025-08-20 - vikaspal_76 → anujverma@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "135",
+    "object_repr": "2025-08-20 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "134",
+    "object_repr": "2025-08-20 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "133",
+    "object_repr": "2025-08-20 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "132",
+    "object_repr": "2025-08-20 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "131",
+    "object_repr": "2025-08-20 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "130",
+    "object_repr": "2025-08-20 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2025-08-20T07:27:00.234Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "129",
+    "object_repr": "2025-08-20 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2025-08-20T08:06:25.126Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "24",
+    "object_repr": "24 VIKASH SINGH",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2025-08-20T08:54:11.953Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2025-08-20T08:54:25.077Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "extra_milk_today"
+    ],
+    "object_id": "18",
+    "object_repr": "18 Rakesh pal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2025-08-20T09:14:18.133Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "1",
+    "object_repr": "Rating is given by astha@123 for vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2025-08-20T09:14:43.178Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "3",
+    "object_repr": "Rating is given by pooja_saxena for vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2025-08-20T09:20:03.304Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2025-08-20T09:22:05.895Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "4",
+    "object_repr": "Rating is given by rahul_sharma for vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2025-08-20T11:57:26.104Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "milkman"
+    ],
+    "object_id": "3",
+    "object_repr": "3 pranjal_mishra",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "144",
+    "object_repr": "2025-08-20 - vikaspal_76 → anujverma@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "143",
+    "object_repr": "2025-08-20 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "142",
+    "object_repr": "2025-08-20 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "141",
+    "object_repr": "2025-08-20 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "140",
+    "object_repr": "2025-08-20 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "139",
+    "object_repr": "2025-08-20 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "138",
+    "object_repr": "2025-08-20 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2025-08-20T12:13:40.949Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "137",
+    "object_repr": "2025-08-20 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2025-08-21T05:15:44.098Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "163",
+    "object_repr": "2025-08-21 - sachinpal@123 → piyush",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2025-08-21T05:35:51.052Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "10",
+    "object_repr": "10 piyush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2025-08-21T05:35:57.450Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "10",
+    "object_repr": "10 piyush",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2025-08-21T05:36:24.303Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "11",
+    "object_repr": "11 akash@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2025-08-21T05:39:38.070Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "165",
+    "object_repr": "2025-08-21 - sachinpal@123 → akash@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2025-08-21T05:39:38.070Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "164",
+    "object_repr": "2025-08-21 - sachinpal@123 → piyush",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2025-08-21T13:10:41.352Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2025-08-21T13:13:26.155Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2025-08-21T13:22:45.953Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "9",
+    "object_repr": "9 ankitpal@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2025-08-21T14:34:19.392Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "11",
+    "object_repr": "11 akash@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2025-08-21T14:34:40.911Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "167",
+    "object_repr": "2025-08-21 - sachinpal@123 → akash@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2025-08-21T14:34:51.922Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "162",
+    "object_repr": "2025-08-21 - vikaspal_76 → ankitpal@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2025-08-21T14:35:00.583Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "9",
+    "object_repr": "9 ankitpal@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2025-08-21T14:40:25.102Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "11",
+    "object_repr": "11 akash@123",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.848Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "166",
+    "object_repr": "2025-08-21 - sachinpal@123 → piyush",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "161",
+    "object_repr": "2025-08-21 - vikaspal_76 → anujverma@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "160",
+    "object_repr": "2025-08-21 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "159",
+    "object_repr": "2025-08-21 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "158",
+    "object_repr": "2025-08-21 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "157",
+    "object_repr": "2025-08-21 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "156",
+    "object_repr": "2025-08-21 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "155",
+    "object_repr": "2025-08-21 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2025-08-21T14:40:55.849Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "154",
+    "object_repr": "2025-08-21 - vikaspal_76 → astha@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2025-08-21T16:11:10.822Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "5",
+    "object_repr": "2025-08-16 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2025-08-21T16:11:10.823Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "4",
+    "object_repr": "2025-08-17 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2025-08-21T16:11:10.823Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "3",
+    "object_repr": "2025-08-14 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2025-08-21T16:11:10.823Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "2",
+    "object_repr": "2025-08-14 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2025-08-21T16:11:10.823Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-14 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2025-08-21T16:11:53.457Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "146",
+    "object_repr": "2025-08-20 - vikaspal_76 → rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Notes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "175",
+    "object_repr": "2025-08-21 - vikaspal_76 → ankitpal@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 277,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "174",
+    "object_repr": "2025-08-21 - vikaspal_76 → anujverma@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 278,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "173",
+    "object_repr": "2025-08-21 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 279,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "172",
+    "object_repr": "2025-08-21 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 280,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "171",
+    "object_repr": "2025-08-21 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 281,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "170",
+    "object_repr": "2025-08-21 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 282,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.677Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "169",
+    "object_repr": "2025-08-21 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 283,
+  "fields": {
+    "action_time": "2025-08-21T16:15:58.677Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "168",
+    "object_repr": "2025-08-21 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 284,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "183",
+    "object_repr": "2025-08-21 - vikaspal_76 → ankitpal@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 285,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "182",
+    "object_repr": "2025-08-21 - vikaspal_76 → anujverma@123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 286,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "181",
+    "object_repr": "2025-08-21 - vikaspal_76 → pooja_saxena",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 287,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "180",
+    "object_repr": "2025-08-21 - vikaspal_76 → rohan_mehta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 288,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "179",
+    "object_repr": "2025-08-21 - vikaspal_76 → neha_gupta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 289,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "178",
+    "object_repr": "2025-08-21 - vikaspal_76 → amit_verma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 290,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "177",
+    "object_repr": "2025-08-21 - vikaspal_76 → priya_singh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 291,
+  "fields": {
+    "action_time": "2025-08-21T18:42:27.994Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dailyrecord"
+    ],
+    "object_id": "176",
+    "object_repr": "2025-08-21 - vikaspal_76 → rahul_sharma",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 292,
+  "fields": {
+    "action_time": "2025-08-21T18:42:46.616Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "5",
+    "object_repr": "Rating is given by rahul_sharma for vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 293,
+  "fields": {
+    "action_time": "2025-08-21T18:42:46.616Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "rating"
+    ],
+    "object_id": "4",
+    "object_repr": "Rating is given by rahul_sharma for vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 294,
+  "fields": {
+    "action_time": "2025-08-21T18:48:16.405Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "costumer"
+    ],
+    "object_id": "2",
+    "object_repr": "2 rahul_sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Custumer request\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 295,
+  "fields": {
+    "action_time": "2025-08-22T07:03:53.773Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "1",
+    "object_repr": "1 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 296,
+  "fields": {
+    "action_time": "2025-08-22T07:04:25.461Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "2",
+    "object_repr": "2 vikaspal_76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 297,
+  "fields": {
+    "action_time": "2025-08-22T07:09:55.725Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "2",
+    "object_repr": "2 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 298,
+  "fields": {
+    "action_time": "2025-08-22T07:29:48.422Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "6",
+    "object_repr": "6 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 299,
+  "fields": {
+    "action_time": "2025-08-22T07:29:48.422Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "5",
+    "object_repr": "5 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 300,
+  "fields": {
+    "action_time": "2025-08-22T07:29:48.422Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "4",
+    "object_repr": "4 Vikash",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 301,
+  "fields": {
+    "action_time": "2025-08-22T07:29:48.423Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "3",
+    "object_repr": "3 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 302,
+  "fields": {
+    "action_time": "2025-08-22T09:00:43.618Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "Mainapp",
+      "dairyimages"
+    ],
+    "object_id": "7",
+    "object_repr": "7 vikaspal_76",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

@@ -67,10 +67,15 @@ WSGI_APPLICATION = 'MilkConnect.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'milk_connect',
+        'USER': 'milk_connect_user',
+        'PASSWORD': 'XOGGnEtwXRb6Gymgq9luQaASrL7PvLVl',
+        'HOST': 'dpg-d2kk4mbuibrs73e9bqc0-a.oregon-postgres.render.com',  # external hostname
+        'PORT': '5432',
     }
 }
+
 
 
 
