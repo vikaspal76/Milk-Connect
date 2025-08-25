@@ -94,3 +94,22 @@ class Extra_Milk_Today(models.Model):
     status=models.CharField(max_length=30,choices=[("stock","Stock"),("out of stock","out of stock")],default="stock")
     def __str__(self):
         return  str(self.id) +" "+ self.milkman_name
+
+class Order(models.Model):
+    id=models.AutoField(primary_key=True)
+    date=models.DateField(auto_now=True)
+    buyername=models.CharField(max_length=30)
+    username=models.CharField(max_length=30)
+    sellerusername=models.CharField(max_length=30)
+    sellername=models.CharField(max_length=30)
+    price=models.IntegerField()
+    pincode=models.IntegerField()
+    state=models.CharField(max_length=50)
+    delivery_address=models.TextField(blank=True,null=True,default=None)
+    payment_mode=models.CharField(max_length=50,choices=[("COD","cash on delivery"),("Online","Online payment")],blank=True,null=True,default=None)
+    status=[("pending","pending"),("dispatch","dispatch"),("on the way","on the way"),
+            ("out for delivery","out for delivery"),("delivered","delivered"),("cancel","cancel"),("return","return")
+            ]
+    order_status=models.CharField(max_length=50,choices=status,default="pending")
+
+

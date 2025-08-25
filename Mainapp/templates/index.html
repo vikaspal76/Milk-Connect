@@ -136,6 +136,7 @@
               <li><a class="dropdown-item" href="/costumer-dashboard/">Dashboard</a></li>
               <li>
               <li><a class="dropdown-item" href="">Update profile</a></li>
+              <li><a class="dropdown-item" href="/myorder/">My Order</a></li>
               {%endif%}
               <hr class="dropdown-divider">
           </li>
@@ -323,7 +324,7 @@
               </h6>
               <small class="text-muted">Type: {{today.animal_type}} • Price: ₹{{today.amount}}/L</small>
               <p class="mb-1 mt-1"><strong>{{today.quantity}} L</strong> available today</p>
-              <a href="/placeorder/" class="btn btn-sm btn-primary">Place Order</a>
+              <a href="/placeorder/{{today.milkman_username}}" class="btn btn-sm btn-primary">Place Order</a>
             </div>
           </div>
         </div>

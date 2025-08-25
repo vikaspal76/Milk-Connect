@@ -1,0 +1,77 @@
+{% extends "index.html" %}
+{% block body %}
+<div class="container orders-container mt-5 mb-5">
+    <h2 class="mb-4 text-center dashboard-header" style="margin-top: 70px;">📋 My Orders</h2>
+
+    <table class="table table-hover text-center align-middle">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>Order ID</th>
+                <th>Milkman</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Example Orders -->
+             {%if order%}
+             {% for i in order%}
+            <tr>
+                <td>{{i.id}}</td>
+                <td>{{i.buyername}}</td>
+                <td>2 Liters</td>
+                <td>{{i.price}}</td>
+                <td>{{i.date}}</td>
+                <td><span class="status-badge status-delivered">{{i.order_status}}</span></td>
+                <td><a href="/tracking/{{i.id}}" class="btn btn-sm btn-outline-primary">Track Order</a></td>
+                
+            </tr>
+
+
+             {%endfor%}
+             {%endif%}
+
+
+            
+            
+          
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .status-badge {
+        padding: 5px 12px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .status-delivered {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .status-pending {
+        background-color: #ffc107;
+        color: black;
+    }
+
+    .status-cancelled {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .dashboard-header {
+        background: linear-gradient(to right, #00796b, #26a69a);
+        color: white;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-bottom: 2px solid #004d40;
+        border-radius: 10px;
+    }
+</style>
+{% endblock %}

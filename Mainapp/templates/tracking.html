@@ -1,0 +1,105 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block body %}
+
+<div class="container mt-5 mb-5">
+    <h3 class="mb-4" style="margin-top: 70px;"> ORDER PLACED ON {{ order.date|date:"d F Y" }}</h3>
+
+    <div class="row">
+        <!-- Left side: Tracking Timeline -->
+        <div class="col-md-7">
+            <div class="tracking-timeline">
+                {% for step in steps %}
+                    <div class="tracking-step {% if forloop.counter0 <= current_index %}completed{% endif %}">
+                        <div class="circle">
+                            {% if forloop.counter0 <= current_index %}✔{% endif %}
+                        </div>
+                        <div class="content">
+                            <h6>{{ step|title }}</h6>
+                            <small>
+                                {% if forloop.counter0 <= current_index %}
+                                    {{ order.date|date:"l, d M" }}
+                                {% endif %}
+                            </small>
+                        </div>
+                    </div>
+                {% endfor %}
+
+                <!-- Action buttons -->
+                <div class="mt-2">
+                    {% if order.order_status != "delivered" and order.order_status != "cancel" and order.order_status != "return" %}
+                        <a href="/cancel-order/{{order.id}}" 
+                           class="btn btn-sm btn-outline-danger text-decoration-none">❌ Cancel</a>
+                    {% elif order.order_status == "delivered" %}
+                        <a href="/return-order/{{order.id}}"  class="btn btn-sm btn-outline-warning text-decoration-none">🔄 Return</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side: Order Info -->
+        <div class="col-md-5">
+            <div class="p-3 rounded">
+                <h6 class="fw-bold">Delivering to</h6>
+                <p class="mb-1"><b>{{ costumer.name }}</b></p>
+                <p class="mb-1">
+                    {{ order.delivery_address }}, <br>
+                    {{ costumer.city }}, {{ order.state }}, {{ order.pincode }}
+                </p>
+                <p class="mb-3">Mobile : {{ costumer.phone }}</p>
+
+                <hr class="border-secondary">
+
+                <p><a href="/myorder/" class="text-decoration-none">View Order Details →</a></p>
+                <p><a href="/download-invoice/{{order.id}}" class="text-decoration-none" download>
+                    Download Invoice 📄</a></p>
+                <p><a href="#" class="text-decoration-none">Review Product ⭐</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .tracking-timeline {
+        position: relative;
+        margin-left: 30px;
+        border-left: 3px solid #ddd;
+        padding-left: 30px;
+    }
+    .tracking-step {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .tracking-step .circle {
+        position: absolute;
+        left: -42px;
+        top: 0;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .tracking-step.completed .circle {
+        background: #00c853;
+        color: white;
+    }
+    .tracking-step:not(.completed) .circle {
+        background: #e0e0e0;
+        color: #999;
+    }
+    .tracking-step .content h6 {
+        margin: 0;
+        font-weight: bold;
+    }
+    .tracking-step .content small {
+        color: #aaa;
+    }
+</style>
+{% endblock %}
+
+{% block subscribe %}{% endblock %}

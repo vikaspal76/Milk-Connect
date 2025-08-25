@@ -19,6 +19,11 @@ from django.utils import timezone
 from django.db.models import Sum, F, ExpressionWrapper, FloatField
 import cloudinary.uploader
 import os
+from django.http import HttpResponse
+from reportlab.lib.pagesizes import A4
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet
 def homepage(request):
     _extra_milk=Extra_Milk_Today.objects.filter(date=date.today(),status="stock")
     extra_milk=[]
@@ -620,13 +625,164 @@ def updateprofilemilkman(request):
 
     return render(request, 'updateprofile.html', {'milkman': milkman, 'dairy': dairy})
 
+@login_required(login_url="/login/")
+def placeorder(request,username):
+    milkman=Milkman.objects.get(username=username)
+    costumer=Costumer.objects.get(username=request.user.username)
+    extra=Extra_Milk_Today.objects.get(milkman_username=username)
+    if(request.method=="POST"):
+        pincode=request.POST.get("pincode")
+        state=request.POST.get("state")
+        address = request.POST.get("address")
+        payment_mode = request.POST.get("payment_mode")
 
-def placeorder(request):
+        order=Order()
+        order.buyername=costumer.name
+        order.username=costumer.username
+        order.sellername=milkman.name
+        order.sellerusername=milkman.username
+        order.price=extra.amount
+        order.pincode=pincode
+        order.state=state
+        order.delivery_address=address
+        order.payment_mode=payment_mode
+        extra.status="out of stock"
+        extra.save()
+        order.save()
+        return HttpResponse("order place succesfully")
+
     return render(request,"orderplace.html")
 
 
+def myorder(request):
+    order=Order.objects.filter(username=request.user.username)
+    return render(request,"myorder.html",{"order":order})
 
 
+
+def order_tracking(request, id):
+    order = Order.objects.get(id=id)
+    costumer = Costumer.objects.get(username=request.user.username)
+
+    # Define all steps in order
+    steps = ["pending", "dispatch", "on the way", "out for delivery", "delivered"]
+
+    # Figure out which step is current
+    try:
+        current_index = steps.index(order.order_status)
+    except ValueError:
+        if(order.order_status=="cancel"):
+            steps.append("cancel")
+        else:
+            steps.append("return")
+        current_index = len(steps)-1
+         
+
+    return render(request, "tracking.html", {
+        "order": order,
+        "costumer": costumer,
+        "steps": steps,
+        "current_index": current_index,
+    })
+
+
+def return_order(request,id):
+    order=Order.objects.get(id=id)
+    order.order_status="return"
+    order.save()
+    return redirect("/tracking/" + str(id))
+
+def cancelorder(request,id):
+    order=Order.objects.get(id=id)
+    order.order_status="cancel"
+    order.save()
+    return redirect("/tracking/" + str(id))
+
+
+
+
+
+
+def download_invoice(request, id):
+    # Fetch order, customer, and milkman
+    order = Order.objects.get(id=id)
+    milkman = Milkman.objects.get(username=order.sellerusername)
+    costumer = Costumer.objects.get(username=request.user.username)
+    extra=Extra_Milk_Today.objects.get(milkman_username=order.sellerusername)
+    # Prepare PDF response
+    response = HttpResponse(content_type="application/pdf")
+    response["Content-Disposition"] = f'attachment; filename="invoice_{order.id}.pdf"'
+
+    doc = SimpleDocTemplate(response, pagesize=A4)
+    elements = []
+    styles = getSampleStyleSheet()
+
+    # --- Header ---
+    header = Paragraph(
+        f"<b><font size=18 color='#2E86C1'>MilkConnect Invoice</font></b><br/>"
+        f"Invoice ID: {order.id} &nbsp;&nbsp; Date: {order.date}",
+        styles["Title"]
+    )
+    elements.append(header)
+    elements.append(Spacer(1, 20))
+
+    # --- Customer & Seller Info ---
+    customer_info = Paragraph(
+        f"<b>Customer:</b> {costumer.name}<br/>"
+        f"Email: {costumer.email}<br/>"
+        f"Phone: {costumer.phone}<br/>"
+        f"Address: {order.delivery_address}, {order.state}, {order.pincode}",
+        styles["Normal"]
+    )
+
+    seller_info = Paragraph(
+        f"<b>Seller:</b> {milkman.name}<br/>"
+        f"Milkman Username: {milkman.username}",
+        styles["Normal"]
+    )
+
+    info_table = Table([[customer_info, seller_info]], colWidths=[270, 270])
+    elements.append(info_table)
+    elements.append(Spacer(1, 20))
+
+    # --- Order Details Table ---
+    order_data = [
+        ["Item", "Quantity (L)", "Price (₹)", "Payment Mode", "Status"],
+        ["Milk", f"{extra.quantity}", f"{order.price}", order.payment_mode, order.order_status],
+    ]
+
+    order_table = Table(order_data, colWidths=[150, 100, 100, 100, 100])
+    order_table.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#2E86C1")),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.whitesmoke),
+        ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+        ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+        ("FONTSIZE", (0, 0), (-1, 0), 12),
+        ("BOTTOMPADDING", (0, 0), (-1, 0), 10),
+        ("GRID", (0, 0), (-1, -1), 1, colors.black),
+    ]))
+    elements.append(order_table)
+    elements.append(Spacer(1, 30))
+
+    # --- Total ---
+    total = Paragraph(
+        f"<b>Total Amount: {order.price}</b>",
+        styles["Heading2"]
+    )
+    elements.append(total)
+    elements.append(Spacer(1, 40))
+
+    # --- Footer ---
+    footer = Paragraph(
+        "<b>Thank you for choosing MilkConnect!</b><br/>"
+        "For any queries, contact support@milkconnect.com",
+        styles["Normal"]
+    )
+    elements.append(footer)
+
+    # Build PDF
+    doc.build(elements)
+    return response
 
 
 

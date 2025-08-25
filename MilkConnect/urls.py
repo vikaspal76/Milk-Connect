@@ -29,5 +29,10 @@ urlpatterns = [
     path("aboutus/",aboutpage),
     path("feedback/",feedbackform),
     path("updateprofile/",updateprofilemilkman),
-    path("placeorder/",placeorder),
+    path("placeorder/<str:username>",placeorder),
+    path("myorder/",myorder),
+    path("tracking/<int:id>",order_tracking),
+    path("download-invoice/<int:id>",download_invoice),
+    path("cancel-order/<int:id>",cancelorder),
+    path("return-order/<int:id>",return_order),
    ]
